@@ -151,3 +151,4 @@ $ tree ./pkg/ -P "terraform|*.zip"
 ```
 
 _Note: Cross-compilation uses [gox](https://github.com/mitchellh/gox), which requires toolchains to be built with versions of Go prior to 1.5. In order to successfully cross-compile with older versions of Go, you will need to run `gox -build-toolchain` before running the commands detailed above._
+
